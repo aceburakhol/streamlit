@@ -22,7 +22,7 @@ elif option == 'chart':
 	chart_data = pd.Dataframe(
 		np.random.randn(20,2),
 		Columns=['a','b']
-		)
+		) 
 
 	st.line_chart(chart_data)
 	chart_data
